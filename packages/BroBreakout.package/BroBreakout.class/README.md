@@ -1,10 +1,11 @@
-A BroBreakout is a Smalltalk Implementation of the classic game "Breakout". The instanciation of this morph starts a new game instance.
+A BroBreakout is a Smalltalk Implementation of the classic game "Breakout". The instantiation of this morph starts a new game instance.
 Additionally, it encapsulates basic file access and offers access to level, image and sound files.
 
 
 = CREDITS =
 BroBreakout has proudly been implemented by Frank Blechschmidt, Fabio Niephaus, Philipp Otto and Daniel Werner for SWA1 at Hasso-Plattner-Instiute in Potsdam, Germany.
 
+Updated for Squeak 5.2 by Stephen Smith (sst).
 
 = LICENSING =
 This work is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License.

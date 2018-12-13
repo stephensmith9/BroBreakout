@@ -6,9 +6,11 @@
 		"Configurations",
 		"ImageDatabase",
 		"SoundDatabase" ],
-	"commentStamp" : "FN 2/7/2013 13:31:23.721",
+	"commentStamp" : "sst 12/12/2018 21:07",
 	"instvars" : [
-		"views" ],
+		"views",
+		"imageDatabase",
+		"soundDatabase" ],
 	"name" : "BroBreakout",
 	"pools" : [
 		 ],
