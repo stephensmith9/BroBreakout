@@ -1,7 +1,7 @@
 accessing
 delete
 	"Also unset ImageDatabase and SoundDatabase when BroBreakout is deleted"
-	self class
+	"self class
 		imageDatabase: nil;
-		soundDatabase: nil.
+		soundDatabase: nil."
 	super delete.

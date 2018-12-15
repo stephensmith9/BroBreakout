@@ -17,7 +17,7 @@
 		"distanceVectorToTravel:" : "dw 11/15/2012 22:19:05.219",
 		"flipDirection" : "PO 1/15/2013 00:16:26.781",
 		"getLineOrigins:" : "PO 1/25/2013 23:58:09.234",
-		"getNearestIntersect" : "PO 2/7/2013 22:43:39.86",
+		"getNearestIntersect" : "sst 12/15/2018 00:40",
 		"getOffsetVectorForOrigin:" : "PO 1/25/2013 23:54:51.375",
 		"initialize" : "PO 2/3/2013 20:35:53.981",
 		"initializeBackgroundImage" : "FN 2/3/2013 17:32:54.652",
@@ -29,6 +29,6 @@
 		"radiusVector" : "PO 2/3/2013 20:22:20.545",
 		"radiusVectorNormal" : "FN 1/24/2013 09:54:26.167",
 		"step" : "PO 1/31/2013 22:41:58.855",
-		"stepTime" : "PO 1/13/2013 00:28:44.045",
+		"stepTime" : "sst 12/15/2018 00:41",
 		"tempCenter" : "FN 1/24/2013 09:53:37.08",
 		"tempCenter:" : "po 12/1/2012 21:17:55.602" } }

@@ -4,6 +4,6 @@ clean: aString
 	| cleanedLanguageStream |
 	cleanedLanguageStream := WriteStream on: aString.
 	aString do: [:aCharacter |
-		((self healthValues keys includes: aCharacter) or: (aCharacter = $.)) ifTrue: [
+		((self healthValues keys includes: aCharacter) or: [(aCharacter = $.)]) ifTrue: [
 			cleanedLanguageStream nextPut: aCharacter]].
 	^ cleanedLanguageStream contents

@@ -1,3 +1,3 @@
 accessing
 stepTime
-	^ 20
+	^ 60

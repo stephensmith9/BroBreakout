@@ -2,7 +2,7 @@ level object handling
 clearWorld
 	"Remove all elements"
 	self removeAllMorphs.
-	self levelBlocks removeAll.
-	self rackets removeAll.
-	self balls removeAll.
-	self disallowedBlocks removeAll.
+	self levelBlocks removeAllSuchThat: [:x | true].
+	self rackets removeAllSuchThat: [:x | true].
+	self balls removeAllSuchThat: [:x | true].
+	self disallowedBlocks removeAllSuchThat: [:x | true].

@@ -2,7 +2,7 @@ collision handling
 getNearestIntersect
 	| nearestIntersect nearestDistance origins currentOrigin |
 	
-	nearestDistance := Float maxExactInteger..
+	nearestDistance := 1 bitShift: 53.
 	origins := self getLineOrigins: self tempCenter.
 	
 	#(#right #top #left) do: [:eachOrigin |
