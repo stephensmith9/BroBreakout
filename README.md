@@ -1,7 +1,7 @@
 BroBreakout
 ===========
 
-Breakout clone written in Squeak Smalltalk
+Breakout clone written in Squeak Smalltalk (updated here for Squeak 5.2).
 
 ![BroBreakout Welcome Screenshot](https://raw.github.com/fniephaus/BroBreakout/master/screenshots/welcome.jpg)
 
@@ -11,15 +11,18 @@ Breakout clone written in Squeak Smalltalk
 
 ## How to install
 
-Make sure FileTree is installed in your Squeak image before starting. If not, you can get it [here](https://github.com/Metacello/metacello) by installing Metacello, which automatically installs FileTree as well.
+Make sure FileTree is installed in your Squeak 5.2 image before starting. If not, you can get it [here](https://github.com/Metacello/metacello) by installing Metacello, which automatically installs FileTree as well.
 
 Once FileTree is installed you can 'git clone' the project to your local machine. Now open a Monticello browser to import the BroBreakout package. Do this by adding a filetree:// repo. From within your Monticello browser, browse to the location you cloned the project to. You will need to browse all the way to the 'BroBreakout/packages' subfolder for Monticello to see the BroBreakout package. Select the Open button to open the filetree:// repo, then select the package and load it via the Load button.
 
 ### Setting Up Resources
 
-The game also requires resources consisting of images, sounds, and level data. They are found in the resources folder of your cloned git repo. For Squeak to access these files from the code, you need to copy the brobreakout subfolder and all of it's contents from the resources folder to your Squeak installation's root folder. For example, if you installed Squeak to C:\Squeak5.2 then after you copy the resource folder, the full path to the image resources will be C:\Squeak\brobreakout\images.
+The game also requires resources consisting of images and sounds (level data was removed as levels are now hardcoded into the game). They are found in the resources folder of your cloned git repo. For Squeak to access these files from the code, you need to copy the brobreakout subfolder and all of its contents from the resources folder to your Squeak installation's root folder. For example, if you installed Squeak to C:\Squeak5.2 then after you copy the resources folder to the correct location, the full path to the image resources should be C:\Squeak5.2\brobreakout\images.
 
 ## How to start
+
+Note that the game does not currently run in Squeak 5.2. Code is actively being worked on and we'll update this page as soon as it's ready. You can still run the command below, the game will launch, but when you click on a level to play, the game will halt with an error. Close the error window, and with the game in focus simply press 'q' to quit the game and all will be well with your image again.
+
 ```Smalltalk
 BroBreakout new openInHand.
 ```
@@ -29,10 +32,12 @@ BroBreakout new openInHand.
 
 [Frank Blechschmidt](https://github.com/FraBle), [Fabio Niephaus](https://github.com/fniephaus), [Philipp Otto](https://github.com/philippotto) and [Daniel Werner](https://github.com/daniel-wer)
 
+Updates on this fork by: [Stephen Smith](https://github.com/stephensmith9). Pull requests may be made in the future back to [Fabio Niephaus](https://github.com/fniephaus) but probably not until the game is in a working state under Squeak 5.2 (or if Fabio requests so personally in its current non-working state).
+
 
 ## Copyright & License
 
-Copyright (c) 2013 [Frank Blechschmidt](https://github.com/FraBle), [Fabio Niephaus](https://github.com/fniephaus), [Philipp Otto](https://github.com/philippotto) and [Daniel Werner](https://github.com/daniel-wer) - Released under the [MIT license](https://raw.github.com/fniephaus/BroBreakout/master/LICENSE).
+Copyright (c) 2013, 2018 [Frank Blechschmidt](https://github.com/FraBle), [Fabio Niephaus](https://github.com/fniephaus), [Philipp Otto](https://github.com/philippotto), [Daniel Werner](https://github.com/daniel-wer) and [Stephen Smith](https://github.com/stephensmith9) - Released under the [MIT license](https://raw.github.com/fniephaus/BroBreakout/master/LICENSE).
 
 All images and sounds that are been used are licensed under the Creative Commons License or any other license that allows commercial use.
 
