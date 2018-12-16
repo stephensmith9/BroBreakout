@@ -11,7 +11,8 @@
 		"levelWorld",
 		"tempCenter",
 		"newCenter",
-		"collisionPoint" ],
+		"collisionPoint",
+		"gameInstance" ],
 	"name" : "BroBall",
 	"pools" : [
 		 ],

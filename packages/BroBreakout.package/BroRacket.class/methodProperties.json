@@ -6,7 +6,8 @@
 		"maximumAngle" : "PO 1/24/2013 18:42:51.451",
 		"maximumWidth" : "FN 1/24/2013 09:56:32.676",
 		"minimumWidth" : "FN 1/24/2013 09:56:37.37",
-		"offset" : "FN 1/24/2013 09:56:41.013" },
+		"offset" : "FN 1/24/2013 09:56:41.013",
+		"withGame:" : "sst 12/16/2018 15:50" },
 	"instance" : {
 		"center" : "PO 1/13/2013 00:28:33.096",
 		"changeSize:" : "sst 12/15/2018 12:13",

@@ -1,9 +1,9 @@
 accessing
 configurations
 	"Store Configurations to make them persistent in the image"
-	Configurations ifNil: [Configurations := Dictionary new.
-		Configurations
+	configurations ifNil: [configurations := Dictionary new.
+		configurations
 			at: #playSoundEffects put: true;
 			at: #playMusic put: true].
 		
-	^ Configurations
+	^ configurations

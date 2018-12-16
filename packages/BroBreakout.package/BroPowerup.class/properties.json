@@ -8,7 +8,8 @@
 	"instvars" : [
 		"levelWorld",
 		"directionVector",
-		"backgroundMorph" ],
+		"backgroundMorph",
+		"gameInstance" ],
 	"name" : "BroPowerup",
 	"pools" : [
 		 ],

@@ -12,7 +12,8 @@
 		"rackets",
 		"levelStatistics",
 		"disallowedBlocks",
-		"ballSpeed" ],
+		"ballSpeed",
+		"gameInstance" ],
 	"name" : "BroLevelWorld",
 	"pools" : [
 		 ],

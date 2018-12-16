@@ -1,8 +1,8 @@
 level object handling
-addRacketAt: aPosition
+addRacketAt: aPosition withGame: aGameInstance
 	| racket |
 
-	racket := BroRacket new
+	racket := (BroRacket withGame: aGameInstance)
 		position: aPosition + self position;
 		color: Color red;
 		health: -1;

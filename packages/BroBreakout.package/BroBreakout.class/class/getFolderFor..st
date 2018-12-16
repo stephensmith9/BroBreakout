@@ -1,6 +1,6 @@
 file handling
-getFolderFor: aSymbol
-	^ (self folderNameFor: #root),
+getFolderFor: aResourceType
+	^ (self resourcesRootFolder),
 		FileDirectory pathNameDelimiter asString,
-		(self folderNameFor: aSymbol),
+		(self folderNameFor: aResourceType),
 		FileDirectory pathNameDelimiter asString

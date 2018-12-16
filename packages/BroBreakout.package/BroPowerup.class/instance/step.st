@@ -3,7 +3,7 @@ step
 	self position: self position + self directionVector.
 
 	(self collidesWithAnyElementOf: self levelWorld rackets) ifTrue: [
-		BroBreakout playSound: 'powerup_execute.wav'.
+		self gameInstance playSound: 'powerup_execute.wav'.
 		self execute.
 		self levelWorld removeMorph: self.
 		^self].

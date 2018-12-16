@@ -3,14 +3,13 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Configurations",
-		"ImageDatabase",
-		"SoundDatabase" ],
+		 ],
 	"commentStamp" : "sst 12/12/2018 21:07",
 	"instvars" : [
 		"views",
 		"imageDatabase",
-		"soundDatabase" ],
+		"soundDatabase",
+		"configurations" ],
 	"name" : "BroBreakout",
 	"pools" : [
 		 ],

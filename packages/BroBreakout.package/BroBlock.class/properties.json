@@ -10,7 +10,8 @@
 		"hitAllowed",
 		"containsPowerup",
 		"levelWorld",
-		"backgroundMorph" ],
+		"backgroundMorph",
+		"gameInstance" ],
 	"name" : "BroBlock",
 	"pools" : [
 		 ],

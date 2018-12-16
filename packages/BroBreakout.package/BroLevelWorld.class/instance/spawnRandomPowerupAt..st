@@ -2,7 +2,7 @@ powerup handling
 spawnRandomPowerupAt: aPosition
 	| aPowerup |
 
-	BroBreakout playSound: 'powerup_spawn.wav'.
+	self gameInstance playSound: 'powerup_spawn.wav'.
 	
 	"Create random powerup by randomly choosing a subclass"
 	aPowerup := BroPowerup subclasses atRandom new.

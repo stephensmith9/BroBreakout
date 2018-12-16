@@ -1,6 +1,6 @@
 file handling
-load: aSymbol for: aFilename
-	(aSymbol = #image)
-		ifTrue: [^ Form fromFileNamed: (self getFolderFor: aSymbol), aFilename].
-	(aSymbol = #sound)
-		ifTrue:[^ SampledSound fromWaveFileNamed: (self getFolderFor: aSymbol), aFilename].
+load: aResourceType for: aFilename
+	(aResourceType = #image)
+		ifTrue: [^ Form fromFileNamed: (self getFolderFor: aResourceType), aFilename].
+	(aResourceType = #sound)
+		ifTrue:[^ SampledSound fromWaveFileNamed: (self getFolderFor: aResourceType), aFilename].

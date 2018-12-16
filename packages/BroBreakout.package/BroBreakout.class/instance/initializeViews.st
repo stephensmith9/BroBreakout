@@ -1,9 +1,9 @@
 initialization
 initializeViews
 	self views: (Dictionary new
-		at: #welcome put: ((BroWelcomeView new) gameInstance: self);
-		at: #menu put: ((BroMenuView new) gameInstance: self);
-		at: #level put: ((BroLevelView new) gameInstance: self);
+		at: #welcome put: (BroWelcomeView withGame: self);
+		at: #menu put: (BroMenuView withGame: self);
+		at: #level put: (BroLevelView withGame: self);
 		yourself).
 
 	self changeViewTo: #welcome.

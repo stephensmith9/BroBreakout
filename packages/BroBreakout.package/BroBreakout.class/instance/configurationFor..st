@@ -1,3 +1,3 @@
 accessing
-configuration: aConfiguration
+configurationFor: aConfiguration
 	^ (self configurations at: aConfiguration)

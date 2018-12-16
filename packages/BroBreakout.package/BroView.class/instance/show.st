@@ -1,5 +1,5 @@
 accessing
 show
 	super show.
-	(BroBreakout configuration: #playMusic) ifTrue: [
+	(self gameInstance configurationFor: #playMusic) ifTrue: [
 		self playMusic].

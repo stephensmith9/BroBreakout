@@ -1,3 +1,3 @@
 accessing
 configurations: aDictionary
-	Configurations := aDictionary.
+	configurations := aDictionary.

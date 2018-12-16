@@ -4,5 +4,5 @@ removeBall: aBall
 	self balls remove: aBall.
 	self levelStatistics update: #lifes by: #decrementing.
 	self
-		explode: aBall color: #blue;
+		explode: aBall color: #blue withGame: self gameInstance;
 		checkGameOver.

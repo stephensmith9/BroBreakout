@@ -1,6 +1,6 @@
 collision handling
 handleBallHit
-	BroBreakout playSound: 'ball_hit.wav'.
+	self gameInstance playSound: 'ball_hit.wav'.
 
 	self health: (self health - 1).
 

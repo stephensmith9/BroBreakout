@@ -1,7 +1,7 @@
 initialization
 initialize
 	super initialize.
-	BroBreakout playSound: 'explosion.wav'.
+	self gameInstance playSound: 'explosion.wav'.
 	self color: Color transparent;
 		changeNoLayout;
 		currentSpriteIndex: 0;

@@ -1,4 +1,4 @@
 sounds
 playSound: aFilename
-	(self configuration: #playSoundEffects) ifTrue: [
+	(self configurationFor: #playSoundEffects) ifTrue: [
 		(self get: #sound for: aFilename) play]

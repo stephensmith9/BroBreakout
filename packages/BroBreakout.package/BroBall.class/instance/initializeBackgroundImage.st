@@ -1,3 +1,3 @@
 initialization
 initializeBackgroundImage
-	self addMorph: (BroBreakout newImageMorphFor: 'ball.png').
+	self addMorph: ((self gameInstance) newImageMorphFor: 'ball.png').

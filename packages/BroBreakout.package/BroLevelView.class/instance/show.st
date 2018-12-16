@@ -5,9 +5,9 @@ show
 		overlay: nil;
 		lastKey: nil.
 	
-	BroBreakout playSound: 'level_start.wav'.
+	self gameInstance playSound: 'level_start.wav'.
 	self levelWorld ballSpeed: self class defaultBallSpeed.
-	self levelBuilder buildLevel: self currentLevelID.
+	self levelBuilder buildLevel: self currentLevelID withGame: self gameInstance.
 	
 	self levelStatistics
 		reset: self currentLevelID

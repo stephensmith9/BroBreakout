@@ -1,3 +1,3 @@
 accessing
 soundDatabase: aDictionary
-	SoundDatabase := aDictionary
+	soundDatabase := aDictionary

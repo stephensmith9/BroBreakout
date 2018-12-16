@@ -1,4 +1,4 @@
 user interface
 setBackgroundImage: aFilename
 	self backgroundMorph ifNotNil: [
-		self backgroundMorph image: (BroBreakout get: #image for: aFilename)]
+		self backgroundMorph image: ((self gameInstance) get: #image for: aFilename)]

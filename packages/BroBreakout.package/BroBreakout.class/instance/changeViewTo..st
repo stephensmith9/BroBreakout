@@ -1,8 +1,8 @@
 accessing
-changeViewTo: aSymbol
+changeViewTo: aViewName
 	"aSymbol can be #welcome, #menu or #level"
 	| aView |
-	aView := (self views at: aSymbol).
+	aView := (self views at: aViewName).
 	self hideAllViews.
 	aView show.
 	ActiveHand newKeyboardFocus: aView.

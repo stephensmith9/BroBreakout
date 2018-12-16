@@ -7,7 +7,8 @@
 	"commentStamp" : "PO 2/3/2013 22:14:10.926",
 	"instvars" : [
 		"imageMorph",
-		"currentSpriteIndex" ],
+		"currentSpriteIndex",
+		"gameInstance" ],
 	"name" : "BroExplosion",
 	"pools" : [
 		 ],
