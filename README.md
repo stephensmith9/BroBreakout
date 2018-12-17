@@ -1,7 +1,7 @@
 BroBreakout
 ===========
 
-Breakout clone written in Squeak Smalltalk (updated here for Squeak 5.2).
+Breakout clone written in Squeak ![Squeak](squeak-icon.png)Smalltalk (updated here for Squeak 5.2).
 
 ![BroBreakout Welcome Screenshot](https://raw.github.com/fniephaus/BroBreakout/master/screenshots/welcome.jpg)
 
