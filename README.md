@@ -21,8 +21,6 @@ The game also requires resources consisting of images and sounds (level data was
 
 ## How to start
 
-Note that the game does not currently run in Squeak 5.2. Code is actively being worked on and we'll update this page as soon as it's ready. You can still run the command below, the game will launch, but when you click on a level to play, the game will halt with an error. Close the error window, and with the game in focus simply press 'q' to quit the game and all will be well with your image again.
-
 ```Smalltalk
 BroBreakout new openInHand.
 ```
@@ -32,7 +30,7 @@ BroBreakout new openInHand.
 
 [Frank Blechschmidt](https://github.com/FraBle), [Fabio Niephaus](https://github.com/fniephaus), [Philipp Otto](https://github.com/philippotto) and [Daniel Werner](https://github.com/daniel-wer)
 
-Updates on this fork by: [Stephen Smith](https://github.com/stephensmith9). Pull requests may be made in the future back to [Fabio Niephaus](https://github.com/fniephaus) but probably not until the game is in a working state under Squeak 5.2 (or if Fabio requests so personally in its current non-working state).
+Updates to this fork by: [Stephen Smith](https://github.com/stephensmith9).
 
 
 ## Copyright & License
