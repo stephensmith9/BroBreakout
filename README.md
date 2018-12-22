@@ -51,7 +51,7 @@ This fork implements the following changes to make the game run in Squeak 5.2:
 - [ ] Add more in-game features
 - [x] ~~Fix sound toggle bug (newly introduced in 5.2 update)~~
 - [ ] Allow paddle control when cursor is outside game boundaries
-- [ ] Change 'Lifes' to 'Lives' in status bar
+- [x] ~~Change 'Lifes' to 'Lives' in status bar~~
 - [ ] Add option to adjust powerup speed
 - [ ] Add option to set initial lives count
 - [ ] Add high scores screen
