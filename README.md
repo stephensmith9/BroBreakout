@@ -3,11 +3,11 @@ BroBreakout
 
 Breakout clone written in Squeak ![Squeak](squeak-icon.png) Smalltalk (updated here for Squeak 5.2).
 
-![BroBreakout Welcome Screenshot](https://raw.github.com/fniephaus/BroBreakout/master/screenshots/welcome.jpg)
+![BroBreakout Welcome Screenshot](screenshots/welcome.jpg)
 
-![BroBreakout Menu Screenshot](https://raw.github.com/fniephaus/BroBreakout/master/screenshots/menu.jpg)
+![BroBreakout Menu Screenshot](screenshots/menu.jpg)
 
-![BroBreakout Level Screenshot](https://raw.github.com/fniephaus/BroBreakout/master/screenshots/level.jpg)
+![BroBreakout Level Screenshot](screenshots/level.jpg)
 
 ## How to install
 
