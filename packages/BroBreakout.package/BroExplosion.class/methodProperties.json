@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"diameter" : "FN 1/24/2013 09:59:43.31" },
+		"diameter" : "FN 1/24/2013 09:59:43.31",
+		"withGame:" : "sst 12/20/2018 22:17" },
 	"instance" : {
 		"currentSpriteIndex" : "FN 1/24/2013 10:48:25.414",
 		"currentSpriteIndex:" : "FN 1/24/2013 10:48:28.466",

@@ -3,7 +3,7 @@ addBall
 	| aBall randomRacket |
 	randomRacket := self rackets atRandom.
 	
-	aBall := BroBall new
+	aBall := (BroBall withGame: self gameInstance)
 		levelWorld: self;
 		positionAt: randomRacket;
 		yourself.
