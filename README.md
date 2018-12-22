@@ -49,12 +49,13 @@ This fork implements the following changes to make the game run in Squeak 5.2:
 - [ ] Add explanation and examples of using the BroLevelBuilder DSL
 - [ ] Add theme support
 - [ ] Add more in-game features
-- [ ] Fix sound toggle bug (newly introduced in 5.2 update)
+- [x] Fix sound toggle bug (newly introduced in 5.2 update)
 - [ ] Allow paddle control when cursor is outside game boundaries
 - [ ] Change 'Lifes' to 'Lives' in status bar
 - [ ] Add option to adjust powerup speed
 - [ ] Add option to set initial lives count
 - [ ] Add high scores screen
+- [ ] Add ability to pause the game
 
 ## Copyright & License
 
