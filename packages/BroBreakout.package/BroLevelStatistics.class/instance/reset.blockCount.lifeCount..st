@@ -5,5 +5,5 @@ reset: currentLevelID blockCount: aBlockCount lifeCount: aLifeCount
 		refresh: #blocks with: aBlockCount;
 		refresh: #score with: 0;
 		startTime: Time totalSeconds;
-		refresh: #lifes with: aLifeCount;
+		refresh: #lives with: aLifeCount;
 		startStepping.

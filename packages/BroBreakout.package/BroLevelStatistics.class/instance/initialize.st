@@ -8,5 +8,5 @@ initialize
 		startTime: Time totalSeconds;
 		items: Dictionary new.
 	
-	#(#blocks #score #time #level #lifes) do: [:each |
+	#(#blocks #score #time #level #lives) do: [:each |
 		self items at: each put: (self createStatisticItem: each)].

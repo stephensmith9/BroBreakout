@@ -2,8 +2,8 @@
 	"class" : {
 		"withGame:" : "sst 12/16/2018 17:54" },
 	"instance" : {
-		"addBall" : "sst 12/20/2018 23:15",
-		"addBallWithGame:" : "sst 12/16/2018 16:38",
+		"addBall" : "sst 12/22/2018 14:23",
+		"addBallWithGame:" : "sst 12/22/2018 14:24",
 		"addBlockAt:health:withGame:" : "sst 12/16/2018 17:07",
 		"addBoundaries" : "sst 12/22/2018 01:03",
 		"addLevelBlock:" : "PO 2/3/2013 19:08:42.671",
@@ -34,7 +34,7 @@
 		"moveRacketsTo:" : "FN 1/25/2013 16:25:44.48",
 		"rackets" : "FN 1/24/2013 10:28:45.417",
 		"rackets:" : "FN 1/24/2013 10:28:48.745",
-		"removeBall:" : "sst 12/16/2018 18:29",
+		"removeBall:" : "sst 12/22/2018 14:24",
 		"removeLevelBlock:" : "sst 12/16/2018 18:29",
 		"shrinkRackets" : "FN 1/22/2013 20:55:26.814",
 		"spawnRandomPowerupAt:" : "sst 12/20/2018 22:54",

@@ -10,4 +10,4 @@ addBallWithGame: aGameInstance
 	
 	self balls add: aBall.
 	self addMorph: aBall.
-	self levelStatistics update: #lifes by: #incrementing.
+	self levelStatistics update: #lives by: #incrementing.
