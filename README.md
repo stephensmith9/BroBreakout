@@ -3,7 +3,16 @@ BroBreakout
 
 Breakout clone written in Squeak ![Squeak](squeak-icon.png) Smalltalk (updated here for Squeak 5.2).
 
-[TOC]
+- [BroBreakout](#brobreakout)
+  * [Screenshots](#screenshots)
+  * [How to install](#how-to-install)
+    + [Setting Up Resources](#setting-up-resources)
+  * [How to start](#how-to-start)
+  * [How to Configure](#how-to-configure)
+  * [Contributors](#contributors)
+  * [History of Changes](#history-of-changes)
+  * [New Features to Add](#new-features-to-add)
+  * [Copyright & License](#copyright---license)
 
 ## Screenshots
 
