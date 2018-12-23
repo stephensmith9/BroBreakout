@@ -1,6 +1,12 @@
 building
 loadBlocks: aLevelID withGame: aGameInstance
-	"Load level layout from filesystem and apply Domain Specific Language"
+	"Load level layout from filesystem and apply Domain Specific Language.
+	W -> an immovable block (W might represent Wall?)
+	A -> a block that requires a single hit to be removed
+	B -> a block that requires two hits to be remoed
+	C -> a block that requires three hits to be removed
+	a single dot means no block is placed (a row of blocks contains 17 placeholders)"
+	
 	| position content |
 	
 	aLevelID = 1 ifTrue: [

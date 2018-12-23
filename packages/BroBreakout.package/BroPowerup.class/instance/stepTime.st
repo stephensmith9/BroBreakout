@@ -1,3 +1,3 @@
 collision handling
 stepTime
-	^ 20
+	^ 60

@@ -28,7 +28,10 @@ The game also requires resources consisting of images and sounds (level data was
 ```Smalltalk
 BroBreakout new openInHand.
 ```
+## How to Configure
 
+Here we will document how to 'configure' the game by tweaking constant values in the code. In the future we may add a file-based configuration that is read by each game instance, the same way that we currently read image and sound resources into the game.
+* Powerup Speed - to adjust the powerup speed change the `BroPowerup>>stepTime` method to return a new value. The default is 60. Raise it to slow down the powerup, lower it to speed it up.
 
 ## Contributors
 
@@ -43,16 +46,14 @@ This fork implements the following changes to make the game run in Squeak 5.2:
 1. Moves file-based resource initialization from the class side to the instance side
 1. Removes the Level file resources (now hard-coded into the app)
 
-## TODO
+## New Features to Add
 
 - [ ] Add countdown to each level start to give user a chance to position paddle before ball starts moving
 - [ ] Add explanation and examples of using the BroLevelBuilder DSL
 - [ ] Add theme support
-- [ ] Add more in-game features
-- [x] ~~Fix sound toggle bug (newly introduced in 5.2 update)~~
 - [ ] Allow paddle control when cursor is outside game boundaries
-- [x] ~~Change 'Lifes' to 'Lives' in status bar~~
-- [ ] Add option to adjust powerup speed
+- [x] ~~Change 'Lifes' to 'Lives' in statistics bar~~
+- [x] ~~Add option to adjust powerup speed~~
 - [ ] Add option to set initial lives count
 - [ ] Add high scores screen
 - [ ] Add ability to pause the game
