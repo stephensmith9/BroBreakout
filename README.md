@@ -11,7 +11,7 @@ Breakout clone written in Squeak ![Squeak](squeak-icon.png) Smalltalk (updated h
 - [Contributors](#contributors)
 - [History of Changes](#history-of-changes)
 - [New Features to Add](#new-features-to-add)
-- [Copyright & License](#copyright---license)
+- [Copyright and License](#copyright-and-license)
 
 ## Screenshots
 
@@ -72,7 +72,7 @@ This fork implements the following changes to make the game run in Squeak 5.2:
 - [ ] Add high scores screen
 - [ ] Add ability to pause the game
 
-## Copyright & License
+## Copyright and License
 
 Copyright &copy; 2013, 2018 [Frank Blechschmidt](https://github.com/FraBle), [Fabio Niephaus](https://github.com/fniephaus), [Philipp Otto](https://github.com/philippotto), [Daniel Werner](https://github.com/daniel-wer) and [Stephen Smith](https://github.com/stephensmith9) - Released under the [MIT license](https://raw.github.com/fniephaus/BroBreakout/master/LICENSE).
 
