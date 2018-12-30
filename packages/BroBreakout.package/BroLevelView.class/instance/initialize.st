@@ -4,5 +4,6 @@ initialize
 	self
 		initializeLevelStatistics;
 		initializeLevelWorld;
-		levelBuilder: ((BroLevelBuilder new) levelWorld: self levelWorld).
+		levelBuilder: ((BroLevelBuilder new) levelWorld: self levelWorld);
+		pauseTimer: (Stopwatch new).
 	

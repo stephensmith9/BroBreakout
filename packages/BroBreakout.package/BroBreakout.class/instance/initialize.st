@@ -7,5 +7,6 @@ initialize
 		extent: self class dimension;
 		layoutPolicy: ProportionalLayout new;
 		initializeDatabases;
-		initializeViews.
+		initializeViews;
+		isPaused: false.
 		

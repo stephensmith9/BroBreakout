@@ -3,7 +3,7 @@ initializeHealthValues
 	"Create dictionary containing definitions of Domain Specific Language.
 	W -> an immovable block (W might represent Wall?)
 	A -> a block that requires a single hit to be removed
-	B -> a block that requires two hits to be remoed
+	B -> a block that requires two hits to be removed
 	C -> a block that requires three hits to be removed."
 	
 	self healthValues: ({

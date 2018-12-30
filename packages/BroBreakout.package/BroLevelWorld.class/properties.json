@@ -13,7 +13,8 @@
 		"levelStatistics",
 		"disallowedBlocks",
 		"ballSpeed",
-		"gameInstance" ],
+		"gameInstance",
+		"levelPowerups" ],
 	"name" : "BroLevelWorld",
 	"pools" : [
 		 ],

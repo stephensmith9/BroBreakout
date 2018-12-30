@@ -1,1 +1,1 @@
-A BroRacket is a subclass of BroBlock and can be moved by using mouse or keyboard.
+A BroRacket is a subclass of BroBlock and can be moved by using the mouse or keyboard.

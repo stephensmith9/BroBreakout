@@ -1,4 +1,4 @@
-A BroPowerup is a hidden bonus (sometimes good, sometimes bad) that appears after colldiing with a certain block.
+A BroPowerup is a hidden bonus (sometimes good, sometimes bad) that appears after colliding with a certain block.
 
 The current powerups available are:
 

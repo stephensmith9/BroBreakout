@@ -4,14 +4,16 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "PO 2/3/2013 22:19:07.35",
+	"commentStamp" : "sst 12/28/2018 14:10",
 	"instvars" : [
 		"levelWorld",
 		"levelStatistics",
 		"overlay",
 		"currentLevelID",
 		"levelBuilder",
-		"lastKey" ],
+		"lastKey",
+		"savedStepSize",
+		"pauseTimer" ],
 	"name" : "BroLevelView",
 	"pools" : [
 		 ],

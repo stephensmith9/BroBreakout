@@ -6,4 +6,5 @@ initialize
 		levelBlocks: OrderedCollection new;
 		rackets: OrderedCollection new;
 		disallowedBlocks: OrderedCollection new;
-		balls: OrderedCollection new.
+		balls: OrderedCollection new;
+		levelPowerups: OrderedCollection new.

@@ -4,12 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "sst 12/12/2018 21:07",
+	"commentStamp" : "sst 12/23/2018 00:39",
 	"instvars" : [
 		"views",
 		"imageDatabase",
 		"soundDatabase",
-		"configurations" ],
+		"configurations",
+		"isPaused" ],
 	"name" : "BroBreakout",
 	"pools" : [
 		 ],

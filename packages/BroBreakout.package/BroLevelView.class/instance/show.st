@@ -12,4 +12,4 @@ show
 	self levelStatistics
 		reset: self currentLevelID
 		blockCount: ((self levelWorld levelBlocks select: [:aBlock | aBlock health > 0]) size)
-		lifeCount: self levelWorld balls size.
+		lifeCount: BroBreakout initialLives. "self levelWorld balls size."

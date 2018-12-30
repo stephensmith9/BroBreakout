@@ -10,3 +10,4 @@ spawnRandomPowerupAt: aPosition
 		levelWorld: self;
 		position: aPosition.
 	self addMorph: aPowerup.
+	self levelPowerups addLast: aPowerup.
