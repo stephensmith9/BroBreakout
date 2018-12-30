@@ -27,7 +27,7 @@ Breakout clone written in Squeak ![Squeak](squeak-icon.png) Smalltalk (updated h
 
 Make sure FileTree is installed in your Squeak 5.2 image before starting. If not, you can get it [here](https://github.com/Metacello/metacello) by installing Metacello, which automatically installs FileTree as well.
 
-Get the Connectors package from Squeak Map. Do this by opening 'SqueakMap Catalog' from the Apps menu in Squeak and installing the Connectors package. Make sure you install the 5.2 compatible version to match your Squeak 5.2 environment.
+Get the Connectors package from Squeak Map. Do this by opening 'SqueakMap Catalog' from the Apps menu in Squeak. Then install the Connectors package. Make sure you install the 5.2 compatible version to match your Squeak 5.2 environment.
 
 Once the FileTree and Connectors packages are installed, go ahead and 'git clone' the project to your local machine. 
 
@@ -76,7 +76,7 @@ This fork implements the following changes to make the game run in Squeak 5.2:
 
 Copyright &copy; 2013, 2018 [Frank Blechschmidt](https://github.com/FraBle), [Fabio Niephaus](https://github.com/fniephaus), [Philipp Otto](https://github.com/philippotto), [Daniel Werner](https://github.com/daniel-wer) and [Stephen Smith](https://github.com/stephensmith9) - Released under the [MIT license](LICENSE).
 
-All images and sounds used are licensed under a Creative Commons License or any other license that allows commercial use.
+All images and sounds used are licensed under a Creative Commons License or a license that allows commercial use.
 
 Images from:
 http://www.iconfinder.com/
