@@ -68,9 +68,9 @@ This fork implements the following changes to make the game run in Squeak 5.2:
 - [ ] Allow paddle control when cursor is outside game boundaries
 - [x] ~~Change 'Lifes' to 'Lives' in statistics bar~~
 - [x] ~~Add option to adjust powerup speed~~
-- [ ] Add option to set initial lives count
+- [ ] Add option to add lives as additional paddles (similar to Arkanoid)
 - [ ] Add high scores screen
-- [ ] Add ability to pause the game
+- [x] ~~Add ability to pause the game~~
 
 ## Copyright and License
 
